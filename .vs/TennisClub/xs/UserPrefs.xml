@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{50F82E81-4F32-452B-8D8F-62B5F9EAEEAE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TennisClub/Models/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TennisClub/Repositories/PlayerRepository.cs">
     <Files>
-      <File FileName="TennisClub/Models/PlayerContext.cs" Line="1" Column="1" IsPinned="True" />
-      <File FileName="TennisClub/Startup.cs" Line="52" Column="39" />
-      <File FileName="TennisClub/Properties/launchSettings.json" Line="18" Column="8" />
-      <File FileName="TennisClub/Controllers/PlayersController.cs" Line="53" Column="35" />
-      <File FileName="TennisClub/Models/Player.cs" Line="34" Column="1" />
+      <File FileName="TennisClub/Startup.cs" Line="1" Column="1" />
+      <File FileName="TennisClub/Models/PlayerContext.cs" Line="8" Column="6" />
+      <File FileName="TennisClub/Models/Player.cs" Line="11" Column="24" />
+      <File FileName="TennisClub/Controllers/PlayersController.cs" Line="1" Column="1" />
+      <File FileName="TennisClub/Repositories/iPlayerRepository.cs" Line="1" Column="1" />
+      <File FileName="TennisClub/Repositories/PlayerRepository.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,11 +17,11 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Player.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Repositories" expanded="True" />
+              <Node name="Repositories" expanded="True">
+                <Node name="PlayerRepository.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

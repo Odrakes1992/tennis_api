@@ -30,6 +30,7 @@ namespace TennisClub
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<iPlayerRepository, PlayerRepository>();
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

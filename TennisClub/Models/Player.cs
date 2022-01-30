@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 using System.Linq;
 using System.ComponentModel.DataAnnotations.Schema;
+using TennisClub.Models;
 
 namespace TennisClub.Models
 {
@@ -29,9 +30,19 @@ namespace TennisClub.Models
         public string RankName => _ranking;
         public int Points => _startingPoints;
 
-       
-
-
+        //public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+        //{
+        //    PlayerContext db = new PlayerContext();
+        //    List<ValidationResult> validationResult = new List<ValidationResult>();
+        //    var validateName = db.Players.FirstOrDefault(x => x.FullName == FullName);
+        //    if (validateName != null)
+        //    {
+        //        ValidationResult errorMessage = new ValidationResult
+        //            ("Name already exists", new[] { "FullName" });
+        //        validationResult.Add(errorMessage);
+        //    }
+        //    return validationResult;
+        //}
     }
     
 }
